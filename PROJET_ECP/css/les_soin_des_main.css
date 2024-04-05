@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    background-color: #fce8e8 ;
+}
+
+.home {
+    height: 100px;
+}
+
+.banner {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 211, 211), transparent);
+}
+
+header {
+    margin-top: 17px;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+ul a {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    margin-inline: 10px;
+    transition: .1s;
+}
+ul a:hover {
+    color: #d1c1c1;
+    border-bottom: 3px solid #d1c1c1;
+}
+ul img {
+    color: purple;
+    height: 70px;
+}
+
+#banner {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 72vh;
+    overflow: hidden;
+    z-index: 0;
+}
+#banner img {
+    position: absolute;
+    background: transparent;
+    filter: brightness(.4) hue-rotate(15deg);
+    z-index: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+.card
+
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-self: center;
+    justify-content: space-around;    
+    height: 275px;
+    padding-bottom: 30px;
+}
+
+
+
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+    
+ .Manucure_simple
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #EE60FF;
+    border-radius: 20%;
+    
+}
+ 
+ 
+
+ .title_Manucure_simple
+{
+    display: flex;
+     
+}
+.Paragraphe
+{
+    display: flex;
+}
+
+.Prix_Manucure_simple
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.Pose_de_vernis_simple
+ {  display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #EE60FF;
+    border-radius: 20%;
+    
+ }
+
+ .title_pose_de_vernis_simple
+{
+    display: flex;
+  
+}
+
+.Prix_pose_de_vernis_simple
+{
+    display: flex;
+    margin-left: 50%;
+}
+
+.btn
+{
+    display: flex;
+    border-radius: 20%;
+    padding-top: 15px;
+    font-size: 14px;
+    cursor: crosshair;
+}
+
+footer 
+{
+    height: 30vh;
+    background-color: #c4b4b4;
+}
+footer img {
+    height: 200px;
+}
+#footer_bottom {
+    margin-inline: auto;
+}

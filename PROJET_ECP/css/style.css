@@ -1,0 +1,143 @@
+body {
+    color-scheme: pink;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    background-color: #fce8e8 ;
+}
+
+.home {
+    height: 100px;
+}
+
+.banner {
+    height: 20vh;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(rgb(255, 211, 211), transparent);
+}
+
+header {
+    margin-top: 17px;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    z-index: 1000;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+ul a {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    margin-inline: 10px;
+    transition: .1s;
+}
+ul a:hover {
+    color: #d1c1c1;
+    border-bottom: 3px solid #d1c1c1;
+}
+ul img {
+    color: purple;
+    height: 70px;
+}
+
+#banner {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 72vh;
+    overflow: hidden;
+    z-index: 0;
+}
+#banner img, #banner video {
+    position: absolute;
+    filter: brightness(.4) hue-rotate(15deg);
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+#banner h1 {
+    z-index: 100;
+    position:relative;
+   color: white;
+}
+
+.tilte_soins_du_visage
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+ }
+.vidéo
+ { 
+    background-color: #fce8e8;
+    display:flex;
+    justify-content: center;
+    height: 365px;
+    margin: 0;
+    width: auto; 
+    padding-bottom: 70px;
+    padding-top: 20px;
+    
+ }
+
+
+
+
+footer {
+    height: 30vh;
+    background-color: #c4b4b4;
+}
+footer img {
+    height: 200px;
+}
+#footer_bottom {
+    margin-inline: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+button {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
